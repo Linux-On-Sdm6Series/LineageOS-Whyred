@@ -1,7 +1,7 @@
 # Proprietary files for Redmi Note 5 Pro (Whyred) 
 _________________________________________________
 
-#for Halium-7.1
+# for Halium-7.1
 
 Audio and Camera blobs are not yet updated.
 
