@@ -2,7 +2,7 @@
 <manifest>
   <!-- device specific repos -->
   <project name="Linux-On-Whyred/LineageOS" path="device/xiaomi/whyred" clone-depth="1" revision="cm-14.1-device" />
-  <project name="Linux-On-Whyred/kernel_xiaomi_whyred" path="kernel/xiaomi/whyred" clone-depth="1" --single-branch revision="cm-14.1" />
+  <project name="Linux-On-Whyred/kernel_xiaomi_whyred" path="kernel/xiaomi/whyred" clone-depth="1" revision="cm-14.1" />
   <project name="Linux-On-Whyred/LineageOS" path="vendor/xiaomi/whyred" clone-depth="1" revision="cm-14.1-vendor" />
 
   <!-- platform specific repos -->
