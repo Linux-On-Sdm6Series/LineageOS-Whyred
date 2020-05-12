@@ -14,6 +14,7 @@ source build/envsetup.sh
 export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g"
 jack-admin kill-server && jack-admin start-server
 lunch lineage_whyred-userdebug
+export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g"
 mka bacon -j$(nproc --all)
 ```
 
