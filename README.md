@@ -2,7 +2,7 @@
 
 #
 ```
-repo init -u git://github.com/Linux-On-Whyred/LineageOS.git -b cm-14.1
+repo init -u git://github.com/LineageOS/android.git -b cm-14.1
 ```
 #
 ```
