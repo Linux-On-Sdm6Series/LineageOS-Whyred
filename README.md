@@ -1,4 +1,4 @@
-# CyanogenMod 14.1   |   LineageOS 14.1
+# CyanogenMod |   LineageOS
 
 #
 ```
