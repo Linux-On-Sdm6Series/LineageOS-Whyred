@@ -89,6 +89,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     org.ifaa.android.manager
 
+PRODUCT_PACKAGES += \
+    sensorservice
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@4.0-impl:32 \
@@ -104,7 +107,7 @@ PRODUCT_PACKAGES += \
     audio.primary.sdm660 \
     audio.r_submix.default \
     audio.usb.default \
-    audiod \
+#     audiod \
     libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
@@ -152,10 +155,19 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.frameworks.displayservice@1.0_32 \
+    libbson \
+    libgui_vendor \
+    camera.device@1.0-impl \
+    camera.device@3.2-impl \
+    android.frameworks.displayservice@1.0 \
     android.hardware.camera.provider@2.4-impl:32 \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service:32 \
     android.hardware.camera.provider@2.4-service \
-    libxml2
+    libbinder_vendor \
+    vendor.qti.hardware.camera.device@1.0 \
+    vendor.qti.hardware.camera.device@1.0.vendor \
+    vendor.qti.hardware.camera.device@1.0_vendor
 
 # CNE
 PRODUCT_PACKAGES += \
@@ -392,6 +404,12 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
     android.hardware.radio.config@1.0 \
     android.hardware.secure_element@1.0 \
+    android.hardware.radio@1.0-impl \
+    android.hardware.radio@1.0-service \
+    android.hardware.radio.deprecated@1.0 \
+    android.hardware.radio.deprecated@1.0-impl \
+    android.hardware.radio.deprecated@1.0-service \
+    vendor.qti.hardware.camera.device@1.0 \
     librmnetctl \
     libxml2 \
     libprotobuf-cpp-full

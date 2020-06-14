@@ -5,6 +5,11 @@ VNDK_SP_LIBRARIES := \
     android.hardware.graphics.common@1.0 \
     android.hardware.graphics.common@1.1 \
     android.hardware.renderscript@1.0 \
+    android.hardware.bluetooth@1.0 \
+    android.hardware.drm@1.0 \
+    libnetutils \
+    libdpmframework \
+    libcurl \
     android.hidl.base@1.0 \
     android.hidl.memory@1.0 \
     libRSCpuRef \
